@@ -1,0 +1,51 @@
+$Dark-Grayish-Blue-Text: hsl(228, 12%, 44%);
+
+.overviewCard {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: calc((100% / 4) - 40px);
+  min-width: 190px;
+  max-width: 320px;
+
+  height: 125px;
+  border-radius: 5px;
+
+  padding: 20px 25px;
+}
+
+.infoType {
+  p {
+    color: $Dark-Grayish-Blue-Text;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+}
+
+.count {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  .changeRate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+    font-size: 12px;
+  }
+}

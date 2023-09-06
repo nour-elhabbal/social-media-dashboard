@@ -1,0 +1,73 @@
+$youtube: hsl(356, 98%, 37%);
+$facebook: hsl(208, 92%, 53%);
+$twitter: hsl(203, 89%, 53%);
+$instagram: hsl(329, 70%, 58%);
+
+.card {
+  padding: 10px;
+  width: calc((100% / 4) - 40px);
+  min-width: 190px;
+  max-width: 320px;
+  height: 190px;
+
+  border-radius: 5px;
+
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.card.facebook {
+  border-top: 5px solid $facebook;
+}
+
+.card.twitter {
+  border-top: 5px solid $twitter;
+}
+
+.card.instagram {
+  border-top: 5px solid $instagram;
+}
+
+.card.youtube {
+  border-top: 5px solid $youtube;
+}
+
+.username {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 5px;
+
+  p {
+    font-size: 10px;
+    font-weight: 700;
+  }
+}
+.followersCount {
+  p:nth-of-type(2) {
+    letter-spacing: 4px;
+    font-size: 10px;
+    margin-bottom: 40px;
+  }
+}
+
+.totalCount {
+  margin-top: 15px;
+  font-size: 40px;
+
+  font-weight: 700;
+}
+
+.change {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+
+  font-weight: 700;
+  font-size: 12px;
+}

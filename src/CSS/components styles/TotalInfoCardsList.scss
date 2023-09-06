@@ -1,0 +1,23 @@
+.TotalInfoCardsList {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 977px) and (min-width: 600px) {
+  .TotalInfoCardsList {
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+    gap: 20px;
+
+    .card {
+      min-width: 280px;
+    }
+  }
+}

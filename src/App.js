@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import TotalInfoCardsList from "./components/TotalInfoCardsList";
+// import "./CSS/defaultStyles.css";
+import "./CSS/App.scss";
+import "./CSS/darkTheme.scss";
+import "./CSS/lightTheme.scss";
+import Header from "./components/Header";
+import OverviewCardsList from "./components/OverviewCardsList";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app dark ">
+      <Header />
+      <div className="cardsWrapper">
+        <TotalInfoCardsList />
+        <OverviewCardsList />
+      </div>
     </div>
   );
-}
+};
 
 export default App;

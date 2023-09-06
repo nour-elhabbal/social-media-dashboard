@@ -1,0 +1,57 @@
+$Dark-Desaturated-Blue-CardBg: hsl(228, 28%, 20%);
+$Desaturated-Blue-Text: hsl(228, 34%, 66%);
+$Very-Dark-Blue-TopBgPattern: hsl(232, 19%, 15%);
+.app.dark {
+  header {
+    border-radius: 0 0 30px 30px;
+    background-color: $Very-Dark-Blue-TopBgPattern;
+    h1 {
+      color: #fff;
+    }
+
+    p {
+      color: $Desaturated-Blue-Text;
+    }
+  }
+
+  .switcher {
+    p {
+      font-size: 14px;
+      color: #fff;
+    }
+  }
+
+  .card {
+    .username {
+      p {
+        color: $Desaturated-Blue-Text;
+      }
+    }
+
+    .followersCount {
+      p {
+        color: $Desaturated-Blue-Text;
+      }
+    }
+
+    .totalCount {
+      color: #fff !important;
+    }
+    background-color: $Dark-Desaturated-Blue-CardBg;
+  }
+
+  .overviewCardsList h2 {
+    color: #fff;
+    margin-left: 3%;
+  }
+
+  .overviewCard {
+    background-color: $Dark-Desaturated-Blue-CardBg;
+
+    .count {
+      p {
+        color: #fff;
+      }
+    }
+  }
+}
