@@ -1,5 +1,6 @@
 $Very-Dark-Blue-TopBgPattern: hsl(232, 19%, 15%);
 $Toggle-dark: linear-gradient(to left, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+$Desaturated-Blue-Text: hsl(228, 34%, 66%);
 
 .switcher {
   display: flex;
@@ -41,4 +42,14 @@ $Toggle-dark: linear-gradient(to left, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 .switchThumb.light {
   background-color: #fff;
   margin-left: 3px;
+}
+
+@media screen and (max-width: 650px) {
+  .switcher {
+    justify-content: space-between;
+
+    margin-top: 15px;
+    border-top: 1px solid $Desaturated-Blue-Text;
+    padding-top: 20px;
+  }
 }

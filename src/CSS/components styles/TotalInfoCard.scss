@@ -15,6 +15,11 @@ $instagram: hsl(329, 70%, 58%);
   display: grid;
   place-content: center;
   text-align: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  opacity: 0.8;
 }
 
 .card.facebook {
@@ -70,4 +75,11 @@ $instagram: hsl(329, 70%, 58%);
 
   font-weight: 700;
   font-size: 12px;
+}
+
+@media screen and (max-width: 650px) {
+  .card {
+    width: 100%;
+    max-width: unset;
+  }
 }

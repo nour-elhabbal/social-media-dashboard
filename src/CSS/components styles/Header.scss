@@ -31,3 +31,10 @@ header {
     font-weight: 700;
   }
 }
+
+@media screen and (max-width: 650px) {
+  .heading {
+    flex-direction: column;
+    align-items: unset;
+  }
+}

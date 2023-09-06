@@ -49,3 +49,10 @@ $Dark-Grayish-Blue-Text: hsl(228, 12%, 44%);
     font-size: 12px;
   }
 }
+
+@media screen and (max-width: 650px) {
+  .overviewCard {
+    width: 100%;
+    max-width: unset;
+  }
+}
