@@ -2,6 +2,7 @@ $youtube: hsl(356, 98%, 37%);
 $facebook: hsl(208, 92%, 53%);
 $twitter: hsl(203, 89%, 53%);
 $instagram: hsl(329, 70%, 58%);
+$Light-Grayish-Blue-CardBg: hsl(227, 47%, 96%);
 
 .card {
   padding: 10px;
@@ -11,6 +12,8 @@ $instagram: hsl(329, 70%, 58%);
   height: 190px;
 
   border-radius: 5px;
+
+  background-color: $Light-Grayish-Blue-CardBg;
 
   display: grid;
   place-content: center;

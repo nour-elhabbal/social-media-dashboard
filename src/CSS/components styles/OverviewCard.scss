@@ -1,4 +1,5 @@
 $Dark-Grayish-Blue-Text: hsl(228, 12%, 44%);
+$Light-Grayish-Blue-CardBg: hsl(227, 47%, 96%);
 
 .overviewCard {
   display: flex;
@@ -12,6 +13,8 @@ $Dark-Grayish-Blue-Text: hsl(228, 12%, 44%);
 
   height: 125px;
   border-radius: 5px;
+
+  background-color: $Light-Grayish-Blue-CardBg;
 
   padding: 20px 25px;
 }
