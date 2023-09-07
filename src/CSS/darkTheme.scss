@@ -1,10 +1,14 @@
 $Dark-Desaturated-Blue-CardBg: hsl(228, 28%, 20%);
+$Dark-CardBg-Hover: rgba(37, 42, 65, 0.7);
+
 $Desaturated-Blue-Text: hsl(228, 34%, 66%);
 $Very-Dark-Blue-TopBgPattern: hsl(232, 19%, 15%);
+
 .app.dark {
   header {
     border-radius: 0 0 30px 30px;
     background-color: $Very-Dark-Blue-TopBgPattern;
+
     h1 {
       color: #fff;
     }
@@ -22,6 +26,8 @@ $Very-Dark-Blue-TopBgPattern: hsl(232, 19%, 15%);
   }
 
   .card {
+    background-color: $Dark-Desaturated-Blue-CardBg;
+
     .username {
       p {
         color: $Desaturated-Blue-Text;
@@ -37,7 +43,10 @@ $Very-Dark-Blue-TopBgPattern: hsl(232, 19%, 15%);
     .totalCount {
       color: #fff !important;
     }
-    background-color: $Dark-Desaturated-Blue-CardBg;
+  }
+
+  .card:hover {
+    background-color: $Dark-CardBg-Hover;
   }
 
   .overviewCardsList h2 {
@@ -53,5 +62,10 @@ $Very-Dark-Blue-TopBgPattern: hsl(232, 19%, 15%);
         color: #fff;
       }
     }
+  }
+
+  .card:hover,
+  .overviewCard:hover {
+    background-color: $Dark-CardBg-Hover;
   }
 }

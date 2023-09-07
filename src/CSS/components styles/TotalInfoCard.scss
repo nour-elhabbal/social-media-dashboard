@@ -3,6 +3,7 @@ $facebook: hsl(208, 92%, 53%);
 $twitter: hsl(203, 89%, 53%);
 $instagram: hsl(329, 70%, 58%);
 $Light-Grayish-Blue-CardBg: hsl(227, 47%, 96%);
+$Card-BG-Hover: rgba(240, 242, 250, 0.8);
 
 .card {
   padding: 10px;
@@ -22,7 +23,7 @@ $Light-Grayish-Blue-CardBg: hsl(227, 47%, 96%);
 }
 
 .card:hover {
-  opacity: 0.8;
+  background-color: $Card-BG-Hover;
 }
 
 .card.facebook {

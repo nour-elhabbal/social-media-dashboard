@@ -8,6 +8,7 @@ $White-BG: hsl(0, 0%, 100%);
   font-family: "Inter";
   transition: 0.2s ease-in-out;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -28,5 +29,5 @@ body.light-bg {
 
 .cardsWrapper {
   position: relative;
-  top: -120px;
+  top: -130px;
 }

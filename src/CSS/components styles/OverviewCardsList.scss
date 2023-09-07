@@ -14,3 +14,16 @@ $Dark-Grayish-Blue-Text: hsl(228, 12%, 44%);
   color: $Dark-Grayish-Blue-Text;
   margin-left: 3%;
 }
+
+@media screen and (max-width: 996px) and (min-width: 600px) {
+  .wrapper {
+    display: grid !important;
+    grid-template-columns: auto auto;
+    place-content: center;
+    gap: 10px;
+
+    .overviewCard {
+      min-width: 270px;
+    }
+  }
+}

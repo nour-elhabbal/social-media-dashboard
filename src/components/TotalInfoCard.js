@@ -31,7 +31,7 @@ const PlatformCard = ({ username, followersCount, platform, changeRate }) => {
     imgAlt = "instagram logo";
   }
   return (
-    <div className={`card light ${platform}`}>
+    <div className={`card ${platform}`}>
       <div className="username">
         <img src={imgSrc} alt={imgAlt} />
         <p>{username}</p>
