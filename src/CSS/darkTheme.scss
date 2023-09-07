@@ -1,13 +1,13 @@
 $Dark-Desaturated-Blue-CardBg: hsl(228, 28%, 20%);
 $Dark-CardBg-Hover: rgba(37, 42, 65, 0.7);
-
 $Desaturated-Blue-Text: hsl(228, 34%, 66%);
 $Very-Dark-Blue-TopBgPattern: hsl(232, 19%, 15%);
 
 .app.dark {
   header {
-    border-radius: 0 0 30px 30px;
     background-color: $Very-Dark-Blue-TopBgPattern;
+
+    border-radius: 0 0 30px 30px;
 
     h1 {
       color: #fff;
@@ -51,6 +51,7 @@ $Very-Dark-Blue-TopBgPattern: hsl(232, 19%, 15%);
 
   .overviewCardsList h2 {
     color: #fff;
+
     margin-left: 3%;
   }
 

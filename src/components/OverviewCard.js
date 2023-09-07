@@ -1,4 +1,5 @@
 import "../CSS/components styles/OverviewCard.scss";
+
 import youtubeLogo from "../images/icon-youtube.svg";
 import facebookLogo from "../images/icon-facebook.svg";
 import twitterLogo from "../images/icon-twitter.svg";
@@ -7,10 +8,7 @@ import upArrow from "../images/icon-up.svg";
 import downArrow from "../images/icon-down.svg";
 
 const OverviewCard = ({ infoType, platform, count, changeRate }) => {
-  let imgSrc;
-  let imgAlt;
-  let arrow;
-  let changeColor;
+  let imgSrc, imgAlt, arrow, changeColor;
 
   changeRate[0] === "up"
     ? (arrow = upArrow) && (changeColor = "hsl(163, 72%, 41%)")
@@ -29,6 +27,7 @@ const OverviewCard = ({ infoType, platform, count, changeRate }) => {
     imgSrc = instagramLogo;
     imgAlt = "instagram logo";
   }
+
   return (
     <div className="overviewCard">
       <div className="infoType">

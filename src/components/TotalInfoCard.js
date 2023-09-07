@@ -1,10 +1,11 @@
+import "../CSS/components styles/TotalInfoCard.scss";
+
 import youtubeLogo from "../images/icon-youtube.svg";
 import facebookLogo from "../images/icon-facebook.svg";
 import twitterLogo from "../images/icon-twitter.svg";
 import instagramLogo from "../images/icon-instagram.svg";
 import upArrow from "../images/icon-up.svg";
 import downArrow from "../images/icon-down.svg";
-import "../CSS/components styles/TotalInfoCard.scss";
 
 const PlatformCard = ({ username, followersCount, platform, changeRate }) => {
   let followersOrSubs, imgSrc, imgAlt, arrow, changeColor;

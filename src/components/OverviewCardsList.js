@@ -1,5 +1,8 @@
-import OverviewCard from "./OverviewCard";
+//Css
 import "../CSS/components styles/OverviewCardsList.scss";
+
+//Other Components
+import OverviewCard from "./OverviewCard";
 
 const OverviewCardsList = () => {
   return (

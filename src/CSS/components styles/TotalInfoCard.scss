@@ -1,24 +1,27 @@
+//Css
 $youtube: hsl(356, 98%, 37%);
 $facebook: hsl(208, 92%, 53%);
 $twitter: hsl(203, 89%, 53%);
 $instagram: hsl(329, 70%, 58%);
 $Light-Grayish-Blue-CardBg: hsl(227, 47%, 96%);
-$Card-BG-Hover: rgba(240, 242, 250, 0.8);
+$Card-BG-Hover: rgba(240, 242, 250, 0.6);
 
 .card {
-  padding: 10px;
+  background-color: $Light-Grayish-Blue-CardBg;
+
+  height: 190px;
   width: calc((100% / 4) - 40px);
   min-width: 190px;
   max-width: 320px;
-  height: 190px;
-
-  border-radius: 5px;
-
-  background-color: $Light-Grayish-Blue-CardBg;
 
   display: grid;
   place-content: center;
   text-align: center;
+
+  padding: 10px;
+
+  border-radius: 5px;
+
   cursor: pointer;
 }
 
@@ -45,8 +48,10 @@ $Card-BG-Hover: rgba(240, 242, 250, 0.8);
 .username {
   display: flex;
   flex-direction: row;
+
   align-items: center;
   justify-content: center;
+
   gap: 5px;
   margin-top: 5px;
 
@@ -57,28 +62,31 @@ $Card-BG-Hover: rgba(240, 242, 250, 0.8);
 }
 .followersCount {
   p:nth-of-type(2) {
-    letter-spacing: 4px;
     font-size: 10px;
+    letter-spacing: 4px;
+
     margin-bottom: 40px;
   }
 }
 
 .totalCount {
-  margin-top: 15px;
   font-size: 40px;
-
   font-weight: 700;
+
+  margin-top: 15px;
 }
 
 .change {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-
   font-weight: 700;
   font-size: 12px;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;
 }
 
 @media screen and (max-width: 650px) {

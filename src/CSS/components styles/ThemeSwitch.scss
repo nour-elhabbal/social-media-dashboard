@@ -1,3 +1,4 @@
+//Colors
 $Very-Dark-Blue-TopBgPattern: hsl(232, 19%, 15%);
 $Toggle-dark: linear-gradient(to left, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 $Desaturated-Blue-Text: hsl(228, 34%, 66%);
@@ -5,24 +6,28 @@ $Desaturated-Blue-Text: hsl(228, 34%, 66%);
 .switcher {
   display: flex;
   flex-direction: row;
+
   align-items: center;
+
   gap: 10px;
 }
 
 .switchBody {
-  cursor: pointer;
   width: 50px;
   height: 28px;
 
-  border-radius: 60px;
-
   display: flex;
   align-items: center;
+
+  border-radius: 60px;
+
+  cursor: pointer;
 }
 
 .switchThumb {
   width: 20px;
   height: 20px;
+
   background-color: bisque;
   border-radius: 50%;
 }
@@ -36,11 +41,13 @@ $Desaturated-Blue-Text: hsl(228, 34%, 66%);
 
 .switchThumb.dark {
   background-color: $Very-Dark-Blue-TopBgPattern;
+
   margin-left: 25px;
 }
 
 .switchThumb.light {
   background-color: #fff;
+
   margin-left: 3px;
 }
 
@@ -49,7 +56,8 @@ $Desaturated-Blue-Text: hsl(228, 34%, 66%);
     justify-content: space-between;
 
     margin-top: 15px;
-    border-top: 1px solid $Desaturated-Blue-Text;
     padding-top: 20px;
+
+    border-top: 1px solid $Desaturated-Blue-Text;
   }
 }

@@ -1,5 +1,6 @@
-import TotalInfoCard from "./TotalInfoCard";
 import "../CSS/components styles/TotalInfoCardsList.scss";
+
+import TotalInfoCard from "./TotalInfoCard";
 
 const TotalInfoCardsList = () => {
   return (

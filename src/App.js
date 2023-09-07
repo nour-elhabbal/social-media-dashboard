@@ -1,8 +1,9 @@
-import TotalInfoCardsList from "./components/TotalInfoCardsList";
 import "./CSS/App.scss";
 import "./CSS/darkTheme.scss";
+
 import Header from "./components/Header";
 import OverviewCardsList from "./components/OverviewCardsList";
+import TotalInfoCardsList from "./components/TotalInfoCardsList";
 
 const App = () => {
   return (

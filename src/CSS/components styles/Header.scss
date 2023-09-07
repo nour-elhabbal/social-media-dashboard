@@ -1,37 +1,36 @@
-@import url("../colors.scss");
 $White-Text: hsl(0, 0%, 100%);
 $Very-Dark-Blue-BG: hsl(230, 17%, 14%);
 $Desaturated-Blue-Text: hsl(228, 34%, 66%);
 
 header {
   height: 300px;
-
   width: 100vw;
+
   position: relative;
   top: -30px;
   left: -7.5%;
 
   padding: 4% 8%;
-
-  // transition: none;
 }
 
 .heading {
+  width: 95%;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
   margin: 30px auto 30px auto;
-  width: 95%;
 
   h1 {
     font-size: 27px;
   }
 
   p {
-    color: $Desaturated-Blue-Text;
-    font-weight: 700;
     font-size: 14px;
+    font-weight: 700;
+    color: $Desaturated-Blue-Text;
   }
 }
 
